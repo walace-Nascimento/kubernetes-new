@@ -1,4 +1,4 @@
-# kube-news
+# kubernetes-news
 
 # Tópicos
 
