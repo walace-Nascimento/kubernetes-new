@@ -7,7 +7,7 @@
 * [Demonstração da Aplicação](#passo-a-passo-da-aplicação)
 
 # Descrição do Projeto
- Utilização do kubernetes na máquina local com resiliência e escalabilidade para aplicação de uma página web
+ Utilização do kubernetes na máquina local com resiliência e escalabilidade para aplicação de uma página web de notícias
  
 # Tecnologias utilizadas
 **Docker**
