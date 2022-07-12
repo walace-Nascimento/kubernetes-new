@@ -7,7 +7,7 @@
 * [Demonstração da Aplicação](#passo-a-passo-da-aplicação)
 
 # Descrição do Projeto
- Aplicação de uma página web utilizando kubernetes na máquina local com resiliência e escalabilidade
+ Utilização do kubernetes na máquina local com resiliência e escalabilidade para aplicação de uma página web
  
 # Tecnologias utilizadas
 **Docker**
@@ -35,7 +35,7 @@ Instalar o K3D para montar o cluster K3S
 ``` $ curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash ```
 
 ## Passo 5 
-Criar o cluster kubernetes com a porta de escolha, nesse caso foi a 30000  para ter acesso na Web, utiliz-se o seguinte comando:
+Criar o cluster kubernetes com a porta de escolha, nesse caso foi a 30000  para ter acesso na Web, utilizou-se o seguinte comando:
 
 ``` kd3 cluster create meucluster --server --agents -p 30000:30000@loadbalancer   ```
 
